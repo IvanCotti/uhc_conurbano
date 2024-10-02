@@ -4,10 +4,11 @@ import '@mdi/font/css/materialdesignicons.css'
 import { createApp } from 'vue';
 import { createRouter, createWebHashHistory } from 'vue-router';
 import Login from '../src/pages/LoginPage';
+import Home from '../src/pages/MainPage.vue';
 
 const routes = [
     { path: '/', component: Login},
-    { path: '/login', component: Login},
+    { path: '/home', component: Home},
 ]
 const router = createRouter({
     history: createWebHashHistory(),

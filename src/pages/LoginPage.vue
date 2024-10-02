@@ -7,6 +7,7 @@
       </div>
       <input class="inputLogin text-white" v-model="inputChat" @keyup.enter="handleEnterInput()" spellcheck="false">
     </v-card>
+    <v-btn @click="$router.push('/home')">Boton</v-btn>
   </div>
 </template>
 
@@ -164,8 +165,7 @@
   }
   #containerChat .content::-webkit-scrollbar-thumb {
     background: #6161617c;
-  }
-   */
+  }*/
   
   .inputLogin{
     width:100%;
